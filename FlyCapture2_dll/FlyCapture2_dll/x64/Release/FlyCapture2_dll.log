@@ -1,0 +1,56 @@
+﻿已經開始建置於 2024/1/11 下午 03:14:15。
+     1>節點 2 (Rebuild 目標) 上的專案 "D:\Tien\Point Grey Research\FlyCapture2\src\Flycapture2_dll\FlyCapture2_dll\FlyCapture2_dll\FlyCapture2_dll.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\opencv\build\include" /I"D:\Tien\Point Grey Research\FlyCapture2\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _WINDOWS /D _USRDLL /D FLYCAPTURE2_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt ImageProcessing.cpp PtGreyAPI.cpp stdafx.cpp
+         ImageProcessing.cpp
+     1>C:\Program Files\opencv\build\include\opencv2/calib3d.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>D:\Tien\Point Grey Research\FlyCapture2\include\FlyCapture2.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\include\Error.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\include\Camera.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\include\CameraBase.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\include\GigECamera.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\include\Image.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\include\Utilities.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\include\TopologyNode.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\include\ImageStatistics.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\src\flycapture2_dll\flycapture2_dll\flycapture2_dll\ImageProcessing.h(16): warning C4091: '__declspec(dllexport)': 當沒有宣告變數時，忽略 'ImageProcessing' 的左方
+         PtGreyAPI.cpp
+     1>C:\Program Files\opencv\build\include\opencv2/calib3d.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>D:\Tien\Point Grey Research\FlyCapture2\include\FlyCapture2.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\include\Error.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\include\Camera.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\include\CameraBase.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\include\GigECamera.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\include\Image.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\include\Utilities.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\include\TopologyNode.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>d:\tien\point grey research\flycapture2\include\ImageStatistics.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>PtGreyAPI.cpp(138): warning C4244: '=': 將 'double' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+     1>PtGreyAPI.cpp(165): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>PtGreyAPI.cpp(174): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>PtGreyAPI.cpp(196): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>PtGreyAPI.cpp(203): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>PtGreyAPI.cpp(213): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>PtGreyAPI.cpp(232): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>PtGreyAPI.cpp(241): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>PtGreyAPI.cpp(263): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>PtGreyAPI.cpp(270): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>PtGreyAPI.cpp(280): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>PtGreyAPI.cpp(295): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>PtGreyAPI.cpp(311): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>PtGreyAPI.cpp(314): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>PtGreyAPI.cpp(332): warning C4305: 'return': 從 'int' 轉換為 'bool'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+         stdafx.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Tien\Point Grey Research\FlyCapture2\src\Flycapture2_dll\FlyCapture2_dll\x64\Release\FlyCapture2_dll.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\opencv\build\x64\vc14\lib" /LIBPATH:"D:\Tien\Point Grey Research\FlyCapture2\lib64\vs2015" FlyCapture2_v140.lib opencv_world3411.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Tien\Point Grey Research\FlyCapture2\src\Flycapture2_dll\FlyCapture2_dll\x64\Release\FlyCapture2_dll.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Tien\Point Grey Research\FlyCapture2\src\Flycapture2_dll\FlyCapture2_dll\x64\Release\FlyCapture2_dll.lib" /MACHINE:X64 /DLL x64\Release\ImageProcessing.obj
+         x64\Release\PtGreyAPI.obj
+         x64\Release\stdafx.obj
+         正在產生程式碼
+         All 157 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成程式碼產生
+         FlyCapture2_dll.vcxproj -> D:\Tien\Point Grey Research\FlyCapture2\src\Flycapture2_dll\FlyCapture2_dll\x64\Release\FlyCapture2_dll.dll
+     1>專案 "D:\Tien\Point Grey Research\FlyCapture2\src\Flycapture2_dll\FlyCapture2_dll\FlyCapture2_dll\FlyCapture2_dll.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.98
